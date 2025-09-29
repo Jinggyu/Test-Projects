@@ -12,5 +12,8 @@
     "assert": "^2.1.0",
     "chromedriver": "^140.0.2",
     "selenium-webdriver": "^4.35.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0"
   }
 }

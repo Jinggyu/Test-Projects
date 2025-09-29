@@ -42,6 +42,7 @@ async function test(){
       }
      
       // Verify that the button "Log out" is displayed on the new page
+     //use [href*="login"]
       const logoutButtonElement = await driver.findElement(By.css('a.wp-block-button__link.has-text-color.has-background.has-very-dark-gray-background-color')); 
       const isButtonDisplayed = await logoutButtonElement.isDisplayed();
       if (isButtonDisplayed) {
