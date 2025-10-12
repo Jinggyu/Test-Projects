@@ -1,7 +1,4 @@
-// --- Setup and Configuration ---
-// This script requires Node.js and the 'selenium-webdriver' package.
-// You must have ChromeDriver installed and available in your system path,
-// or adjust the driver initialization to point to its location.
+
 // Test case link: https://docs.google.com/spreadsheets/d/1BuddlqOxKKrgG5qWTQe1Vk9ansoZXkDZzikejKRc_64/edit?usp=sharing
 
 const { Builder, By, until } = require('selenium-webdriver');
