@@ -1,10 +1,11 @@
-
 // Test case link: https://docs.google.com/spreadsheets/d/1BuddlqOxKKrgG5qWTQe1Vk9ansoZXkDZzikejKRc_64/edit?usp=sharing
 
 const { Builder, By, until } = require('selenium-webdriver');
 const assert = require('assert');
 
-// Define the assumed URL for the web application under test
+let driver = await new Builder().forBrowser('chrome').build();
+
+// Define the URL for the web application under test
 const TARGET_URL = 'https://yekoshy.github.io/RadioBtn-n-Checkbox/';
 
 // Mapping the visible labels to their expected input IDs on the target website
