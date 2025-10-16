@@ -73,7 +73,7 @@ try {
         // 5. Verification of Drawing COORDINATES
         let coordCheckPassed = true;
         
-        // Check A and B (Base verification: A=[0,0], B=[0, side1 =3])
+        // Check A and B (Base verification: A=[0,0], B=[0, side1])
         if (drawData.A[0] !== 0 || drawData.A[1] !== 0 || drawData.B[0] !== 0 || drawData.B[1] !== parseFloat(side1)) {
             console.error(`  - A/B check failed: A=${drawData.A}, B=${drawData.B} (Expected A=[0,0], B=[0,${side1}])`);
             coordCheckPassed = false;

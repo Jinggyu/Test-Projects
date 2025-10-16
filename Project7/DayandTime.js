@@ -1,6 +1,3 @@
-
-
-
 const {By, Browser, Builder, Select} = require('selenium-webdriver')
 const assert = require('assert');
 
